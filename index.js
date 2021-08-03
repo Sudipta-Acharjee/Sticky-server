@@ -30,12 +30,6 @@ client.connect(err => {
                 res.send(documents);
             })
     })
-    app.get('/deleteNote', (req, res) => {
-        notes.find({})
-            .toArray((err, documents) => {
-                res.send(documents);
-            })
-    })
 });
 
 app.get('/', (req, res) => {
