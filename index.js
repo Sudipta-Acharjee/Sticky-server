@@ -4,7 +4,6 @@ const cors = require('cors');
 const MongoClient = require('mongodb').MongoClient;
 const uri = `mongodb+srv://notesDipto:cZPfVsH3R8zSbVXA@cluster0.f3vnz.mongodb.net/stickyNotes?retryWrites=true&w=majority`; //Database ,password ,name should be hide.
 
-
 const app = express()
 const port = 5000;
 app.use(bodyParser.json());
